@@ -11,7 +11,7 @@ document.getElementById('recordBtn').onclick = async () => {
       const formData = new FormData();
       formData.append('audio', audioBlob, 'user_audio.webm');
 
-      const res = await fetch('https://hook.eu1.make.com/your-webhook-id', {
+      const res = await fetch('vt714ww94mhkdao4tjrgak4t4278k8cd@hook.eu2.make.com', {
         method: 'POST',
         body: formData
       });
